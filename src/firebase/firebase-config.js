@@ -5,6 +5,7 @@ import 'firebase/auth';
 const firebaseConfig = {
     apiKey: "AIzaSyA-sOPcROQupxbUbyOB6x-e8IYqlpVYf6w",
     authDomain: "journal-app-cd4f2.firebaseapp.com",
+    databaseURL: "https://journal-app-cd4f2-default-rtdb.firebaseio.com",
     projectId: "journal-app-cd4f2",
     storageBucket: "journal-app-cd4f2.appspot.com",
     messagingSenderId: "817586891382",
