@@ -47,7 +47,7 @@ export const login = (uid, displayName) => ({
         uid,
         displayName
     }
-});
+})
 
 export const startLogout = () => {
     return async (dispatch) => {
