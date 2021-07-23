@@ -61,7 +61,7 @@ export const NoteScreen = () => {
                     (note.url) &&
                     <div className="notes__image">
                         <img 
-                            src="https://miro.medium.com/max/700/1*dLaDL-lSN0iprzmOpmM7zQ.png" 
+                            src={note.url} 
                             alt="ReactJS"
                         />
                     </div>
